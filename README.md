@@ -82,10 +82,10 @@ On the first run, the models (~9 GB) are downloaded automatically from the Huggi
 
 ```bash
 # one image
-python sketch2img.py --sketch sketches/sketch1.png \
-    --prompt "a futuristic skyscraper, photorealistic" --control scribble --cond-scale 1.0 --out out.png
+python sketch2img.py --sketch sketches/cat.jpeg \
+    --prompt "a cute cat face, photorealistic" --control scribble --cond-scale 1.0 --out out.png
 
-# all experiments (~70 images, ~10 min on a T4), then the figures and tables
+# all experiments (130 images, ~15-20 min on a T4), then the figures and tables
 python run_experiments.py
 python make_figures.py
 

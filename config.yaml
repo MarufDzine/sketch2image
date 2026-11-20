@@ -24,12 +24,16 @@ defaults:
 # --- Your sketches: file + a short description of WHAT is drawn -------------
 # The prompt sent to the model is "<subject>, <style text>".
 sketches:
-  - file: sketches/sketch1.png
-    subject: "a futuristic skyscraper with curved glass towers"
-  - file: sketches/sketch2.png
-    subject: "a cute robot character standing"
-  - file: sketches/sketch3.png
-    subject: "a modern desk lamp, product design"
+  - file: sketches/cat.jpeg
+    subject: "a cute cat face, front view, big eyes and long whiskers"
+  - file: sketches/duck.jpeg
+    subject: "a white swan swimming on a calm lake"
+  - file: sketches/fish.jpeg
+    subject: "a tropical fish swimming underwater with air bubbles"
+  - file: sketches/helicopter.jpeg
+    subject: "a helicopter flying over mountains and a river, clouds in the sky"
+  - file: sketches/house.jpeg
+    subject: "a small house next to a pine tree at night under a crescent moon"
 
 styles:
   photo:      "photorealistic, professional photograph, natural lighting, highly detailed, 8k"
